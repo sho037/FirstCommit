@@ -1,0 +1,61 @@
+@charset "UTF-8";
+/* CSSメモ
+    padding margin 上 右 下 左 border等の指定 左上 右上 右下 左下の順である
+*/
+
+
+/* 全体 */
+.img-original-000 {
+    width: 80%;	/*画像幅*/
+    margin: 0 auto;	/*中央配置*/
+}
+.code-background {
+    background-color: grey;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    border-radius: 7px 7px 7px 7px
+}
+.code-character {
+    color: white;
+}
+
+
+/* PC(大型) */
+@media screen and (max-width: 1920px) {
+    .img-original-000 {
+        width: 80%;	/*画像幅*/
+        margin: 0 auto;	/*中央配置*/
+    }
+}
+
+/* PC(小型) */
+@media screen and (max-width: 1180px) {
+    .img-original-000 {
+        width: 80%;	/*画像幅*/
+        margin: 0 auto;	/*中央配置*/
+    }
+}
+
+/* タブレット */
+@media screen and (max-width: 960px) {
+    .img-original-000 {
+        width:100%;	/*画像幅*/
+        margin: 0 auto;	/*中央配置*/
+    }
+}
+
+/* スマートフォン横 */
+@media screen and (max-width: 600px) {
+    .img-original-000 {
+        width:100%;	/*画像幅*/
+        margin: 0 auto;	/*中央配置*/
+    }
+}
+
+/* スマートフォン縦 */
+@media screen and (max-width: 480px) {
+    .img-original-000 {
+        width:100%; /*画像幅*/
+        margin: 0 auto;	/*中央配置*/
+    }
+}
